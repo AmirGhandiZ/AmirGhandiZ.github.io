@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Markazi+Text:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --primary: #fff;
   --bg-color: rgb(5, 53, 61);
@@ -13,14 +15,18 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: var(--bg-color);
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 .container {
   height: 100vh;
-  display: grid;
-  place-items: center;
+  /* display: grid;
+  place-items: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 .container > .envelope-wrapper {
   background: var(--bg-envelope-color);
@@ -151,4 +157,20 @@ img {
   text-align: left;
   margin-left: 60%;
   display: inline-block;
+}
+
+.music-text {
+  font-family: "Markazi Text", serif;
+}
+
+.lyrics-container {
+  text-align: right;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: "Markazi Text", serif;
+}
+
+.lyrics {
+  font-family: inherit;
 }

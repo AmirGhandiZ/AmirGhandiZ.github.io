@@ -148,7 +148,7 @@ img {
 
 .music-text {
   font-family: "Markazi Text", serif;
-  color: whitesmoke;
+  color: var(--primary);
 }
 
 .lyrics-container {
